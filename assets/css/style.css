@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('./fonts/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./fonts/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./fonts/Outfit-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./fonts/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi-Bold */
+    font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    background-color: #FFEDD8;
+
+}
+header{
+    font-family: Outfit;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px;
+}
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+.logo-container{
+    width: 380px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container img{
+    width: 180px;
+    padding: 25px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.Menu{
+    border: solid;
+    border-radius: 60px;
+    padding: 10px;
+    padding-inline: 20px;
+    color: white;
+}
+.Notremission{
+    border: solid;
+    border-radius: 60px;
+    padding: 10px;
+    padding-inline: 25px;
+    color: white; 
+}
+.Nouscontacterbis a{
+    display: flex;
+    border: solid;
+    border-radius: 60px;
+    padding: 10px;
+    padding-inline: 25px;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.Image1 img{
+    display: flex;
+    width: 1727px;
+}
+.Titresdusite h1{
+    font-family: Outfit;
+    font-weight: 400;    
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 60px;
+    font-size: 50px;
+}
+.Titresdusite h2{
+    font-family: Outfit;
+    src: url(./fonts/Outfit-Bold.ttf);
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 740px;
+    left: 60px;
+    font-size: 65px;
+}
+.Titresdusite p{
+    font-family: Outfit;
+    src: url(./fonts/Outfit-Bold.ttf);
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 680px;
+    left: 60px;
+    font-size: 20px;
+}
+.Commander a{
+    font-family: Outfit;
+    src: url(./fonts/Outfit-Bold.ttf);
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    border: solid;
+    border-width: 3px;
+    border-radius: 60px;
+    padding: 10px;
+    padding-inline: 50px;
+    justify-content: center;
+    width: 260px;
+    text-decoration: none;
+    position: absolute;
+    top: 780px;
+    left: 1300px;
+    color: white; 
+}
+.Bloccouleur{
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    
+}
+.Bloccouleur{
+    color: white;
+    margin: 0;
+}
+
+.Titrearticle{
+    margin: auto;
+    width: fit-content;
+}
+.Titrearticle h2{
+    margin: auto;
+    margin-top: 100px;
+    font-family: Outfit;
+    font-weight: 400;
+    background-color: red;
+    padding: 25px;
+    border-radius: 50px;
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+    align-content: center;
+    align-items: center;  
+}
+.article-pizzasdelasaison img{
+    display: flex;
+    width: ;
+
+}
+
